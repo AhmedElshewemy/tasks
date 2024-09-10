@@ -1,0 +1,13 @@
+# Ignore configuration files
+config.php
+.env
+
+# Ignore log files
+*.log
+
+# Ignore cache and temporary files
+/tmp/
+*.tmp
+
+# Ignore node_modules if using Node.js
+node_modules/
