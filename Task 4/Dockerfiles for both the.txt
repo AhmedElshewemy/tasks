@@ -1,0 +1,18 @@
+ Dockerfiles for both the Laravel application and the MySQL server.
+
+MySQL Dockerfile uses the official MySQL image and sets up environment variables.
+but i can specify everything in the docker-compose.yml file without needing separate Dockerfile files for each service. 
+
+Developed the Docker Compose configuration (docker-compose.yml).
+Configured environment variables, volumes, and networks for service communication.
+
+Defined services for PHP-FPM, MySQL, and Nginx.
+
+
+Built and launched the containers using Docker Compose.
+
+Commands used:
+
+docker-compose build
+docker-compose up -d
+docker-compose ps
