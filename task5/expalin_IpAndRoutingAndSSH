@@ -1,0 +1,3 @@
+IP Addresses used in Docker Compose setups are mostly private IPs managed by Docker’s bridge network.
+Routing Protocols like RIP, OSPF, BGP, and EIGRP play a role in determining the best path for data across networks, but within Docker networks, routing is handled internally by Docker itself.
+SSH Steps include ensuring SSH is installed, generating an SSH key pair, copying the public key to the cloud instance, and then connecting securely using ssh.
